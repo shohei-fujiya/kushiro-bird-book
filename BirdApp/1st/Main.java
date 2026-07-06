@@ -16,7 +16,8 @@ class Main {
         birdList.add(new Bird("キレンジャク", "釧路市幣舞"));
         birdList.add(new Bird("オオワシ", "浜中町霧多布"));
         /*Bird bird1 = new Bird("ハクセキレイ", "釧路市昭和中央");
-        birdList.add(bird1);*/
+        birdList.add(bird1);
+        この２行を１行にするとbirdList.add(new Bird("ハクセキレイ", "釧路市昭和中央"))*/
     
         //入力してもらう
         System.out.print("観察した鳥：");
